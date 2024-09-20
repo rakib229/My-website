@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .name{
     color: gold;
 }
@@ -25,6 +28,9 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+    
+    
 }
 .Link_button {
     text-decoration: none;
@@ -34,3 +40,11 @@ section{
     color: white;
     font-weight: 700;
 }
+.Dream-Area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
