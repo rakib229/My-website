@@ -10,7 +10,7 @@ h2 {
     font-size: 40px;
 }
 .name{
-    color: gold;
+    color: orange;
 }
 .half-width {
     width: 40%;
@@ -46,5 +46,32 @@ section{
     background-position: right;
 }
 
-
-
+p{
+    color: cadetblue;
+}
+.shadow-single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#Full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#Baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,white);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
